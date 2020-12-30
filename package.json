@@ -1,0 +1,32 @@
+{
+  "name": "vsky-react-cli",
+  "version": "1.0.0",
+  "description": "配合dev-umijs-boilerplate脚手架使用.自动安装和更新为最新版的脚手架.",
+  "author": "huzh",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "umijs",
+    "devextreme",
+    "vskysoft"
+  ],
+  "homepage": "https://github.com/CodeloveCode/umijs-devextreme-boilerplate",
+  "bin": {
+    "vsky-cli": "bin/main.js",
+    "vsky-cli add": "bin/cli-add.js",
+    "vsky-cli remove": "bin/cli-remove.js",
+    "vsky-cli list": "bin/cli-list.js",
+    "vsky-cli create": "bin/cli-create.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.2.0"
+  }
+}

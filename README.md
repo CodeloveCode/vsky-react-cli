@@ -3,12 +3,32 @@ NodeJs项目.
 
 ## 使用指南:
 
+* 添加模板 
+
+``` bash
 vsky-cli add
+```
+
+* 删除模板
+
+``` bash
 vsky-cli remove 
+```
+
+* 展示模板列表
+
+``` bash
 vsky-cli list
+```
+
+* 根据指定模板创建一个项目
+
+``` bash
 vsky-cli create 模板名 新项目名
+```
 
 ## 发布到npm仓库:
 
 npm login
 npm publish
+24小时内删除:npm unpublish --force
